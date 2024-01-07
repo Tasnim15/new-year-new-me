@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Work Sans', sans-ser
 }
+
 header{
     background-image: url(/images/banner/banner1.png);
     background-size: cover;
@@ -28,7 +33,7 @@ font-weight: 700;
 
 }
 .header-para-description{
-color: Dark-02, #444343;
+color: #444343;
 text-align: right;
 margin-bottom: 32px;
 font-size: 16px;
@@ -45,8 +50,94 @@ font-size: 20px;
 padding: 21px 25px 20px 26px;
 font-weight: 600;
 }
-.header-para .btn-primary{
-    position: absolute;
-    top: 500px;
-    left: 100px;
+.main-container{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    max-width: 1370px;
+    background: #FFF;
 }
+.main-text-container{
+   max-width: 416px;
+   margin: 570px 230px 364px 230px;
+}
+.check-box{
+
+}
+.main-para-text{
+    color: var(--Dark-02, #444343);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+}
+.plan-section-div{
+    text-align: center;
+    background: #FFF;
+}
+.skill-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 55px;
+    gap:192px
+}
+.skill-title{
+    color:  #151414;
+    text-align: center;
+  
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.skill-para{
+    color:  #737272;
+text-align: center;
+
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.keep-div{
+    background-image: url(/images/watch.png);
+    text-align: center;
+
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.second-profile{
+    background-image: url('/images/gradient3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+.keep-div-text{
+    color: #dde4dd;
+   
+    
+padding:64px 147px  14px 270px;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+}
+.call{
+    border-radius: 5px;
+background: #FFF;
+width: 160px;
+height: 64px;
+color: #F15B22;
+text-align: center;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 24px 916px  59px 0px;
+}
+
